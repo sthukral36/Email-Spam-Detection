@@ -7,10 +7,10 @@ The Spam Mail Classification project aims to develop a robust system for detecti
 # Technologies Used:
 
 Python
-Scikit-learn
-Natural Language Toolkit (NLTK)
-Pandas
-NumPy
+- Scikit-learn
+- Natural Language Toolkit (NLTK)
+- Pandas
+- NumPy
 
 # Data Collection:
 A comprehensive dataset of emails is collected, which includes both spam and non-spam emails. This dataset serves as the foundation for training and evaluating the machine learning models.
@@ -23,8 +23,10 @@ Stop Words Removal: Eliminating common but uninformative words (e.g., 'the', 'an
 Stemming: Reducing words to their base or root form to standardize the text.
 Feature Extraction:
 
-# Bag of Words (BoW): Representing text data as a matrix of word frequencies.
-# Term Frequency-Inverse Document Frequency (TF-IDF): Reflecting the importance of words by considering their frequency in a document relative to their frequency across all documents.
+# Bag of Words (BoW)
+Representing text data as a matrix of word frequencies.
+# Term Frequency-Inverse Document Frequency (TF-IDF)
+Reflecting the importance of words by considering their frequency in a document relative to their frequency across all documents.
 
 Model Development:
 Two machine learning algorithms are used for classification:
