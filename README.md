@@ -28,9 +28,8 @@ Representing text data as a matrix of word frequencies.
 # Term Frequency-Inverse Document Frequency (TF-IDF)
 Reflecting the importance of words by considering their frequency in a document relative to their frequency across all documents.
 
-Model Development:
+# Model Development:
 Two machine learning algorithms are used for classification:
-
 Naive Bayes: A probabilistic classifier based on Bayes' theorem, well-suited for text classification due to its simplicity and effectiveness.
 Random Forest: An ensemble learning method that uses multiple decision trees to improve classification accuracy and control overfitting.
 Training and Evaluation:
@@ -39,7 +38,5 @@ The dataset is split into training and testing sets. The models are trained on t
  
 Results and Impact:
 The implementation of the spam classification system significantly improves email management and security. By achieving high classification accuracy, the system reduces the time and resources spent on manually sorting emails and enhances the user experience by minimizing the presence of spam emails in the inbox.
-
-
 This project demonstrates the application of machine learning techniques in solving real-world problems like spam email detection. By using a combination of data preprocessing, feature extraction, and advanced classification algorithms, the project successfully builds an efficient and accurate spam classification system.
 
